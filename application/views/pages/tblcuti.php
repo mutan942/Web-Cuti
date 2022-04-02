@@ -25,7 +25,9 @@
                     <div class="col-md-6">
                         <p>
                             Tanggal Cuti : <?=$c->tanggal_cuti;?><br>
-                            Lama : <?=$c->lama_cuti;?>
+                            Sampai Tanggal : <?=$c->sampai_tanggal;?> <br>
+                            Lama : <?=$c->lama_cuti;?> <br>
+                            Keterangan : <?=$c->keterangan;?>
                         </p>
                         <button style="float:right;" class="btn btn-danger btn-sm"
                             onclick='deletecutidetail("<?=$c->id?>","<?=$urldelete?>")'><i

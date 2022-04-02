@@ -209,7 +209,8 @@ class Pages extends CI_Controller {
                         <p>
                             Tanggal Cuti : $customers->tanggal_cuti<br>
                             Sampai Tanggal : $customers->sampai_tanggal <br>
-                            Lama : $customers->lama_cuti
+                            Lama : $customers->lama_cuti <br>
+                            Keterangan : $customers->keterangan
                         </p>
                         <button style='float:right;' class='btn btn-danger btn-sm' onclick='deletecuti(\"$customers->id\",\"$urldelete\")'><i class='bi bi-trash2-fill'></i></button>
                     </div>
